@@ -268,9 +268,14 @@ input.gsc-input,
   padding: 0 !important;
 }
 
-._df_book {
+.main {
+  display: flex !important;
+  flex-direction: column;
   min-height: calc(100vh - 200px) !important;
   margin-bottom: 15px;
+  padding: 30px 0;
+  justify-content: center;
+  align-items: center;
 }
 
 /* tablet screen view */
