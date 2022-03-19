@@ -4,9 +4,3 @@ window.onscroll = () => {
   let scrolled = (winScroll / height) * 100;
   document.getElementById("bar").style.width = scrolled + "%";
 };
-
-jQuery(function(){
-  DFLIP.defaults.beforeFlip = function(flipbook){
-    $(".df-ui-share").remove();
-  }
-});
