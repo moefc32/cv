@@ -270,6 +270,7 @@ input.gsc-input,
 
 ._df_book {
   min-height: calc(100vh - 200px) !important;
+  margin-bottom: 15px;
 }
 
 /* tablet screen view */
