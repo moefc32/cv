@@ -269,7 +269,7 @@ input.gsc-input,
 }
 
 ._df_book {
-  max-height: calc(100vh - 200px);
+  max-height: calc(100vh - 200px) !important;
 }
 
 /* tablet screen view */
